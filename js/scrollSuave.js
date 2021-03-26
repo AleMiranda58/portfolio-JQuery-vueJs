@@ -37,7 +37,7 @@ $(document).ready(function () {
     $('html, body').stop().animate({scrollTop: seccionOffsetTop}, 1000);
   });
 
-  $('a.scroll-equipo').on('click', function (e) {
+  $('a.competences-scroll').on('click', function (e) {
     e.preventDefault();
     var seccionOffsetTop = $($(this).attr('href')).offset().top - 68
     $('html, body').stop().animate({scrollTop: seccionOffsetTop}, 1000);

@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
 
-  $('.imagen-proyecto').on('click', function () { 
+  $('.imagen-projet').on('click', function () { 
 
     var rutaImagen = $(this).attr('src');
     var modal = '<div class="modal" id="modal"><img src="'+ rutaImagen +'" alt=""><div class="btn-cerrar" id="btnCerrar"><i class="fa fa-times" aria-hidden="true"></i></div></div>';

@@ -3,7 +3,7 @@ $(document).ready(function () {
 
   var fixedHeader = $('#fixedHeader');
   $(window).on('scroll', function () {
-    var projetsOffsetTop = $('#projets').offset().top;
+    var projetsOffsetTop = $('#apropos').offset().top;
 
     if ($(window).scrollTop() >= projetsOffsetTop) {
       fixedHeader.css('margin-top', 0);
